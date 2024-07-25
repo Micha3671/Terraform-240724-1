@@ -11,3 +11,5 @@ resource "aws_instance" "erste_instanz" {
   ami = "ami-01e444924a2233b07"
   vpc_security_group_ids = [ "sg-072bc68ec184b3cca" ]
 }
+
+
